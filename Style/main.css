@@ -1,0 +1,94 @@
+@font-face {
+    font-family:'Segoe UI';
+    src: url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+}
+
+html{min-width: 480px; min-height: 320px;  width:100vw; height:100vh;
+    font-family:'Segoe UI','Noto Sans TC', 'Arial', sans-serif;
+    }
+
+body{position: relative; min-width: 480px; min-height: 320px; margin:0; overflow-x: hidden;  width:100%; height:auto; padding-bottom: 120px;}
+
+
+.appStatus{
+    width:420px;
+    padding:10px 0;
+    margin:0 auto;
+    height:fit-content;
+    border-bottom: 1px #ccc solid;
+}
+
+.left {
+    width:280px;
+    height:fit-content;
+}
+
+.right {
+    position:relative;
+    float:right;
+    width:120px;
+    text-align: right;
+}
+
+
+.appName {
+    font-size: 16px;
+    color:black;    
+}
+
+.duration {
+    color:#666; 
+}
+
+.appName, .duration {
+    display:inline-block;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+.listItem {
+    padding-top: 10px;
+}
+
+.amount {
+    font-size: 20px;
+    position:absolute;
+    bottom:0;   
+}
+
+
+.detailsLink {
+    margin-top: 10px;
+}
+
+a { 
+    display: flex;
+    font-size: 14px;
+    color:#017EBA;
+}
+
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a > span {
+    display: flex;
+    align-items:center;
+    margin-right: 5px;
+}
+
+span, p {
+    font-size: 14px;
+    color:#333;
+    margin:0;}
+
+p {
+    width:inherit;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
